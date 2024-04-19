@@ -1,0 +1,14 @@
+
+def DisplayOddFactors(iNo):
+    
+    for i in range(1 , iNo//2 + 1 , 2): 
+        if ((iNo % i == 0)):
+            print(i)
+    
+def main():
+    iValue = int(input("Enter a Number - "))
+
+    DisplayOddFactors(iValue)
+
+if __name__ == "__main__":
+    main()
